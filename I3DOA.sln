@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vector", "Vector\Vector.vcx
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Time Complexity", "Time Complexity", "{864205F2-8056-46D8-9972-61002F4E636C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linked Lists", "Linked Lists", "{83E3E076-6BF9-4C84-9A88-587AF7A4EDDD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinkedListToolkit", "LinkedListToolkit\LinkedListToolkit.vcxproj", "{8BA8E888-2A60-4558-8292-06425F32CE30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -17,11 +21,16 @@ Global
 		{69F92E4F-4FC1-443E-9374-CF6D84453178}.Debug|Win32.Build.0 = Debug|Win32
 		{69F92E4F-4FC1-443E-9374-CF6D84453178}.Release|Win32.ActiveCfg = Release|Win32
 		{69F92E4F-4FC1-443E-9374-CF6D84453178}.Release|Win32.Build.0 = Release|Win32
+		{8BA8E888-2A60-4558-8292-06425F32CE30}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8BA8E888-2A60-4558-8292-06425F32CE30}.Debug|Win32.Build.0 = Debug|Win32
+		{8BA8E888-2A60-4558-8292-06425F32CE30}.Release|Win32.ActiveCfg = Release|Win32
+		{8BA8E888-2A60-4558-8292-06425F32CE30}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{69F92E4F-4FC1-443E-9374-CF6D84453178} = {864205F2-8056-46D8-9972-61002F4E636C}
+		{8BA8E888-2A60-4558-8292-06425F32CE30} = {83E3E076-6BF9-4C84-9A88-587AF7A4EDDD}
 	EndGlobalSection
 EndGlobal

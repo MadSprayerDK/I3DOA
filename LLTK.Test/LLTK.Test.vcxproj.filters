@@ -29,5 +29,8 @@
     <ClCompile Include="headInsert.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="headRemove.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,5 +1,7 @@
 #include "LLToolKit.h"
 
+using namespace LLTK;
+
 int main()
 {
 	LLToolkit<int> toolkit;

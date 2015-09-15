@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <exception>
 #include "Node.hpp"
 
 namespace LLTK
@@ -27,6 +28,9 @@ namespace LLTK
 		// Time complexity: O(1), Constant
 		void headRemove(Node<T>*& headPtr)
 		{
+			if (headPtr == nullptr)
+				throw std::exception("headPtr is Null");
+
 			Node<T>* deletePtr = headPtr;
 			headPtr = headPtr->next;
 			delete deletePtr;

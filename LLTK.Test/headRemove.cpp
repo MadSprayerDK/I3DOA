@@ -1,3 +1,5 @@
+#include <exception>
+
 #include "stdafx.h"
 #include "CppUnitTest.h"
 
@@ -28,5 +30,25 @@ namespace LLTKTest
 			Assert::AreEqual(headPtr->info, 2);
 		}
 
+		TEST_METHOD(LLTK_headRemove_removeLastElement_ptrIsNull)
+		{
+			Node<int>* n = new Node<int>(1);
+			LLTK::LLToolkit<int> toolkit;
+
+			toolkit.headRemove(n);
+
+			Assert::IsNull(n);
+		}
+
+		TEST_METHOD(LLTK_headRemove_emptyListThrowException)
+		{
+			Assert::ExpectException<std::exception>([this]{ 
+				
+				Node<int>* n = nullptr;
+				LLTK::LLToolkit<int> toolkit;
+
+				toolkit.headRemove(n);
+			});
+		}
 	};
 }

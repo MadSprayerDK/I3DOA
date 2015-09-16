@@ -10,21 +10,10 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="FileTokenizer.h" />
-    <ClInclude Include="OAHashMap.h" />
-    <ClInclude Include="Stopwatch.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="TestHashMap.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="Words.txt" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E9C46F66-2E0D-46B5-AC4D-BAD03BFC3A22}</ProjectGuid>
+    <ProjectGuid>{FD6412A6-8F76-40D7-A441-20F6DD12FDB2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>OAHashMap</RootNamespace>
+    <RootNamespace>TowerOfHanoi</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -86,6 +75,9 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

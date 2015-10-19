@@ -47,15 +47,19 @@ int main()
 	toolkit.insert(root, 1);
 	std::cout << "Does 1 exists?: " << toolkit.search(root, 1) << std::endl;
 
-	/*// Remove
+	// Remove
+	print(root);
 	std::cout << std::endl << "-- REMOVE --" << std::endl;
 	std::cout << "Does 1 exists?: " << toolkit.search(root, 1) << std::endl;
 	toolkit.remove(root, 1);
 	std::cout << "Does 1 exists?: " << toolkit.search(root, 1) << std::endl;
 
+	print(root);
 	std::cout << "Does 24 exists?: " << toolkit.search(root, 24) << std::endl;
 	toolkit.remove(root, 24);
-	std::cout << "Does 24 exists?: " << toolkit.search(root, 24) << std::endl;*/
+	std::cout << "Does 24 exists?: " << toolkit.search(root, 24) << std::endl;
+
+	print(root);
 
 	return 0;
 }

@@ -15,7 +15,7 @@ void moveTower(int numberOfBlocks, int sourucePen, int destinationPen, int viaPe
 int main()
 {
 	std::cout << "Tower of Hanoi" << std::endl;
-	int n = 20;
+	int n = 5;
 
 	moveTower(n, 1, 3, 2);
 }
